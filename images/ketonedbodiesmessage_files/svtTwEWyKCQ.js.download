@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["T6A0h"]); }
+
+__d("AdsCanvasFlightStore",["AdsCanvasDynamicItemStore","AdsCanvasProductDataDispatcher","AdsDataAtom","CatalogVertical"],(function(a,b,c,d,e,f){"use strict";__p&&__p();a=function(a){babelHelpers.inheritsLoose(c,a);function c(){return a.apply(this,arguments)||this}var d=c.prototype;d.__load=function(a){b("AdsCanvasProductDataDispatcher").getFlight(a)};d.__getStoreVertical=function(){return b("CatalogVertical").FLIGHTS};return c}(b("AdsCanvasDynamicItemStore"));e.exports=new a(b("AdsDataAtom"))}),null);

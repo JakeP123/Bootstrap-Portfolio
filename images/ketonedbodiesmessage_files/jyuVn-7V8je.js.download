@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ZrTpN"]); }
+
+__d("AdsUEditorCampaignGroupSetObjectivesReducerPlugin",["AdsCampaignGroupSetObjectivesDataActionFlux","AdsMutators","AdsUEditorCampaignGroupReducerUtils"],(function(a,b,c,d,e,f){"use strict";a={reduce:b("AdsUEditorCampaignGroupReducerUtils").createReducer({},function(a,c){return b("AdsMutators").mutateEach(a,c.campaignGroupIDs,function(a,b){b=c.newCampaignGroups.get(b);return b!=null?b:a})},b("AdsCampaignGroupSetObjectivesDataActionFlux").actionType)};e.exports=a}),null);

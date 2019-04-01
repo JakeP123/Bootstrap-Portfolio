@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["N4UUn"]); }
+
+__d("PagesPageCoverClickFalcoEvent",["FalcoLogger"],(function(a,b,c,d,e,f){"use strict";a=function(){function a(){}a.log=function(a){b("FalcoLogger").log("pages_page_cover_click",a())};return a}();e.exports=a}),null);
